@@ -1,0 +1,121 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+#name{
+    display: inline-block;
+    align-content: center;
+}
+.container{
+    display:flex;
+}
+.content{
+    padding: 1rem 5rem;
+    width: 65rem;
+}
+.nav {
+    width: 25vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(5, 107, 107);
+}
+.start{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    color:cyan;
+    text-align: center;
+    font-size: larger;
+}
+.stockCode{
+    padding: 20px;
+}
+#stockText{
+    color:darkkhaki;
+    padding-bottom: 10px;
+}
+#submit{
+    background-color: yellow;
+    padding: 2px 20px;
+}
+#submit:hover{
+    background-color: yellowgreen;
+}
+.datepicker{
+    padding: 20px;
+}
+.stockbutton, .forcastbutton, .indicatorbutton{
+    background-color:lime;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    align-items: center;
+
+}
+.stockbutton:hover, .forcastbutton:hover, .indicatorbutton:hover{
+    background-color: yellowgreen;
+}
+#input-Forcast{
+    margin: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+.header p {
+    font-size: 4rem;
+    margin-left: 3rem;
+    line-height: 80%;
+}
+#logo{
+    max-width: 15rem;
+    height: auto;
+}
+
+.buttons {
+    margin: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+  }
+#forcast-button {
+    margin-top: 2rem;
+    height: 2.2rem;
+  }
+  .form {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 1.5rem;
+  }
+  .form button {
+    width: 5rem;
+    background-color: yellow;
+    color: black;
+    border: none;
+  }
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .header p {
+    font-size: 4rem;
+    margin-left: 3rem;
+    line-height: 80%;
+  }
+  
+  #logo {
+    max-width: 15rem;
+    height: auto;
+  }
